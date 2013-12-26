@@ -1,2 +1,4 @@
+removed_sources:
+  isodate-0.4.7.tar.gz: 055e06751f0c853610917c90e0839bc07798f4b1
 sources:
-  "isodate-0.4.7.tar.gz": 055e06751f0c853610917c90e0839bc07798f4b1
+  isodate-0.4.9.tar.gz: fa79e46780ef3585bb052fe6c71e27c1146ceacd

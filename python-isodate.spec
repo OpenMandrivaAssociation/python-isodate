@@ -1,5 +1,5 @@
 Name:           python-isodate
-Version:        0.4.7
+Version:        0.4.9
 Release:        1
 Summary:        An ISO 8601 date/time/duration parser and formater
 Group:          Development/Python
@@ -62,7 +62,7 @@ cp -a python2 python3
 
 %build
 pushd python2
-%{__python} setup.py build
+python setup.py build
 popd
 pushd python3
 python3 setup.py build
@@ -78,10 +78,11 @@ popd
 
 %files
 %doc python2/README.txt python2/TODO.txt
-%{python_sitelib}/isodate
-%{python_sitelib}/isodate*.egg-info
+%{py_puresitedir}/isodate
+%{py_puresitedir}/isodate*.egg-info
 
 %files -n python3-isodate
 %doc python2/README.txt python2/TODO.txt
-%{python3_sitelib}/isodate
-%{python3_sitelib}/isodate*.egg-info
+%{py3_puresitedir}/isodate
+%{py3_puresitedir}/isodate*.egg-info
+
