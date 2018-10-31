@@ -1,6 +1,6 @@
 Name:           python-isodate
 Version:        0.5.1
-Release:        3
+Release:        4
 Summary:        An ISO 8601 date/time/duration parser and formater
 Group:          Development/Python
 License:        BSD
