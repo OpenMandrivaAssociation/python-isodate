@@ -1,5 +1,2 @@
-removed_sources:
-  isodate-0.4.7.tar.gz: 055e06751f0c853610917c90e0839bc07798f4b1
-  isodate-0.5.0.tar.gz: 1174aeb482567df02933bdc6f6e7c2a9a72eb31e
 sources:
-  isodate-0.5.1.tar.gz: b4ee406451fbc95cf12beac368a7155704c52635
+  isodate-0.6.0.tar.gz: 2c69e08c9894a9cd96c627146463260f5731df62
