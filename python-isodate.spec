@@ -1,5 +1,5 @@
 Name:           python-isodate
-Version:        0.6.0
+Version:        0.5.4
 Release:        1
 Summary:        An ISO 8601 date/time/duration parser and formater
 Group:          Development/Python
@@ -63,10 +63,10 @@ cp -a python2 python3
 
 %build
 pushd python2
-%{__python2} setup.py build
+python setup.py build
 popd
 pushd python3
-python3 setup.py build
+%py3_build
 popd
 
 %install

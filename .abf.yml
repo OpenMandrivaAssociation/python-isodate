@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   isodate-0.6.0.tar.gz: 2c69e08c9894a9cd96c627146463260f5731df62
+sources:
+  isodate-0.5.4.tar.gz: 40ccf07a8e46284a79cfc4d41e151f71ae63f535
