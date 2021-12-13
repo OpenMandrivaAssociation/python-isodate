@@ -1,11 +1,11 @@
 Name:           python-isodate
-Version:        0.6.0
-Release:        4
+Version:	0.6.1
+Release:	1
 Summary:        An ISO 8601 date/time/duration parser and formater
 Group:          Development/Python
 License:        BSD
 URL:            https://pypi.python.org/pypi/isodate
-Source0:        https://pypi.python.org/packages/source/i/isodate/isodate-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/db/7a/c0a56c7d56c7fa723988f122fa1f1ccf8c5c4ccc48efad0d214b49e5b1af/isodate-0.6.1.tar.gz
 BuildArch:      noarch
 BuildRequires:  python2-devel
 BuildRequires:  python2dist(setuptools)
