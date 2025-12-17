@@ -32,6 +32,5 @@ nanoseconds it will round it to microseconds.
 
 
 %files
-%doc python3/README.rst python3/TODO.txt
 %{py_puresitedir}/isodate
-%{py_puresitedir}/isodate*.egg-info
+#{py_puresitedir}/isodate*.egg-info
