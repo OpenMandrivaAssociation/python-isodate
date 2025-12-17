@@ -10,6 +10,7 @@ BuildRequires:  python-devel
 BuildRequires:  python%{pyver}dist(setuptools)
 %rename python3-isodate
 BuildSystem:    python
+BuildArch:	noarch
 
 %description
 This module implements ISO 8601 date, time and duration parsing. The
