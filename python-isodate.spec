@@ -34,4 +34,4 @@ nanoseconds it will round it to microseconds.
 
 %files
 %{py_puresitedir}/isodate
-#{py_puresitedir}/isodate*.egg-info
+%{python_sitelib}/isodate-*.dist-info
