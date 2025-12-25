@@ -1,6 +1,6 @@
 Name:           python-isodate
 Version:	0.7.2
-Release:	1
+Release:	2
 Summary:        An ISO 8601 date/time/duration parser and formater
 Group:          Development/Python
 License:        BSD
@@ -30,7 +30,6 @@ ISO 8601 dates/times. For instance, dates before 0001-01-01 are not allowed by
 the Python date and datetime classes. Additionally fractional seconds are
 limited to microseconds. That means if the parser finds for instance
 nanoseconds it will round it to microseconds.
-
 
 %files
 %{py_puresitedir}/isodate
