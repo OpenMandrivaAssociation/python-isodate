@@ -1,6 +1,6 @@
 Name:           python-isodate
 Version:	0.7.2
-Release:	3
+Release:	4
 Summary:        An ISO 8601 date/time/duration parser and formater
 Group:          Development/Python
 License:        BSD
@@ -8,6 +8,7 @@ URL:            https://pypi.python.org/pypi/isodate
 Source0:	https://files.pythonhosted.org/packages/source/i/isodate/isodate-%{version}.tar.gz
 BuildRequires:  python-devel
 BuildRequires:  python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(setuptools-scm)
 %rename python3-isodate
 BuildSystem:    python
 BuildArch:	noarch
@@ -33,4 +34,4 @@ nanoseconds it will round it to microseconds.
 
 %files
 %{py_puresitedir}/isodate
-%{python_sitelib}/isodate-*.dist-info
+%{python_sitelib}/isodate-%{version}.dist-info
